@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_location">
+
+    <fragment
+        android:id="@+id/nav_location"
+        android:name="com.example.TERA.ui.location.LocationFragment"
+        android:label="Location"
+        tools:layout="@layout/fragment_location"/>
+
+    <fragment
+        android:id="@+id/nav_history"
+        android:name="com.example.TERA.ui.history.HistoryFragment"
+        android:label="Travel History"
+        tools:layout="@layout/fragment_history" />
+
+    <fragment
+        android:id="@+id/nav_application"
+        android:name="com.example.TERA.ui.application.ApplicationFragment"
+        android:label="About Application"
+        tools:layout="@layout/fragment_application" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.TERA.ui.settings.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.TERA.ui.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_sign_out"
+        android:name="com.example.TERA.ui.signout.SignoutFragment"
+        android:label="Sign Out" />
+
+</navigation>
+

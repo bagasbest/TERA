@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_location"
+            android:icon="@drawable/ic_baseline_location_on_24"
+            android:title="@string/menu_location" />
+
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_baseline_history_24"
+            android:title="@string/menu_travel_history" />
+
+        <item
+            android:id="@+id/nav_application"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="@string/menu_about_application" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="@string/menu_settings" />
+
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="@string/account">
+
+            <menu>
+
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/ic_baseline_account_circle_24"
+                    android:title="@string/menu_profile" />
+
+                <item
+                    android:id="@+id/nav_sign_out"
+                    android:icon="@drawable/ic_baseline_power_settings_new_24"
+                    android:title="@string/menu_sign_out" />
+
+
+            </menu>
+
+        </item>
+
+    </group>
+
+</menu>
